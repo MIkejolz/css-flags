@@ -859,7 +859,7 @@ body {
 .bs-1 {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12); }
 
-.bs-2 {
+.bs-2, .flags .flag {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12); }
 
 .bs-3 {
@@ -868,5 +868,43 @@ body {
 .bs-4 {
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.23); }
 
-body {
-  background-color: pink; }
+.container {
+  max-width: 700px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.hero {
+  padding: 128px 0px; }
+
+.flags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0px -16px; }
+  .flags .flag {
+    width: 200px;
+    height: 140px;
+    margin: 16px;
+    background-color: salmon;
+    border-radius: 8px; }
+  .flags .flag-1 {
+    background-color: #5ea85e; }
+  .flags .flag-2 {
+    background-image: linear-gradient(salmon 50%, blue 50%); }
+  .flags .flag-3 {
+    background-image: linear-gradient(salmon 33%, blue 33%, blue 66%, green 66%); }
+  .flags .flag-4 {
+    background-image: linear-gradient(salmon 25%, blue 25%, blue 50%, green 50%, green 75%, yellow 75%); }
+  .flags .flag-5 {
+    background-image: linear-gradient(salmon 33%, blue 33%, blue 66%, green 66%); }
+  .flags .flag-6 {
+    background-image: linear-gradient(salmon 25%, blue 25%, blue 50%, green 50%, green 75%, yellow 75%); }
+  .flags .flag-7 {
+    background-color: salmon; }
+  .flags .flag-8 {
+    background-image: linear-gradient(salmon 50%, blue 50%); }
+  .flags .flag-9 {
+    background-image: linear-gradient(salmon 33%, blue 33%, blue 66%, green 66%); }

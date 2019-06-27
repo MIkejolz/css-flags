@@ -15,6 +15,19 @@
 		"oAP": "/docs/docs",
 		"oF": 0
 		},
+	"/flags/_lines.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/docs/flags/_lines.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -22,45 +35,6 @@
 		"oA": 0,
 		"oAP": "/docs/index.html",
 		"oF": 0
-		},
-	"/library/_hierarchy.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/docs/library/_hierarchy.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/library/_layout.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/docs/library/_layout.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/library/_margins.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/docs/library/_margins.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		},
 	"/library/_mixins.scss": {
 		"aP": 0,
@@ -88,7 +62,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/library/_typography.scss": {
+	"/library/_seed-library.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -96,7 +70,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/docs/library/_typography.css",
+		"oAP": "/docs/library/_seed-library.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -161,7 +135,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 580253529.38046098,
-	"displayValue": "website-start-template",
+	"displayValue": "css-flags",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-obama",
 	"iconImageWasSetByUser": 0

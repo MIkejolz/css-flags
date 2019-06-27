@@ -1,11 +1,54 @@
 @import '../library/reset';
 @import '../library/variables';
-@import '../library/margins';
-@import '../library/typography';
-@import '../library/layout';
-@import '../library/hierarchy';
+@import '../library/seed-library';
 @import '../library/mixins';
+@import '../flags/lines';
 
-body {
-    background-color: pink;
+.container {
+    max-width: 700px;
+    padding-left: $m2;
+    padding-right: $m2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero {
+    padding: $m8*2 0px;
+}
+
+.flags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px -#{$m2};
+    .flag {
+        width: 200px;
+        height: 140px;
+        margin: $m2;
+        background-color: salmon;
+        border-radius: $br2;
+        @extend .bs-2;
+    }
+
+    $colors: (
+        red: rgb(199, 71, 71),
+        green: rgb(94, 168, 94),
+        blue: rgb(61, 135, 184),
+        yellow: rgb(255, 255, 110)
+    );
+
+    @function get($pickColor) {  
+        @return map-get($colors, $pickColor);  
+    }
+
+    .flag-1     { @include horizontalLines($lists:1, $color1: get(green)); }
+    .flag-2     { @include horizontalLines($lists:2); }
+    .flag-3     { @include horizontalLines($lists:3); }
+    .flag-4     { @include horizontalLines($lists:4); } 
+    .flag-5     { @include horizontalLines($lists:3); }
+    .flag-6     { @include horizontalLines($lists:4); }
+    .flag-7     { @include horizontalLines($lists:1); }
+    .flag-8     { @include horizontalLines($lists:2); }
+    .flag-9     { @include horizontalLines($lists:3); }
 }
